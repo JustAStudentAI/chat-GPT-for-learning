@@ -21,7 +21,7 @@ prompt = st.text_input('Prompt topic:')
 
 # template
 title_template = PromptTemplate(
-    input_variables = ['topic']
+    input_variables = ['topic'],
     template = 'Identify the 20% of {topic} that will yield 80% of the desired results and provide a focused learning plan to master it.' +
     'Create a separate output for this prompt: Explain {topic} in the simplest terms possible as if teaching it to a complete beginner. Identify gaps in my understanding and suggest resources to fill them.'
 )
